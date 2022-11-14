@@ -29,6 +29,7 @@
   --doc-sidebar-width: 0 !important;
   --doc-sidebar-hidden-width: 0 !important;
   --ifm-container-width: 100%;
+  --ifm-background-color-for-page:#FFFFFF ;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -47,6 +48,7 @@
   --ifm-breadcrumb-color-active:rgba(255,255,255,0.25);
   --ifm-menu-color-active:rgba(255,255,255,0.5);
   --ifm-link-color:rgba(255,255,255,0.5);
+  --ifm-background-color-for-page:#091F2C ;
 }
 
 .container.padding-top--md.padding-bottom--lg{

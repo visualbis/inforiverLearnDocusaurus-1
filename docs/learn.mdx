@@ -3,7 +3,7 @@ id: learn
 title: Inforiver
 hide_title: true
 ---
-
+import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import styles from "../src/css/learn/learn.module.css";
 
@@ -11,13 +11,10 @@ import styles from "../src/css/learn/learn.module.css";
   aria-label="breadcrumbs"
   itemscope=""
   itemtype="https://schema.org/BreadcrumbList"
-  style={{ paddingTop:"0.5rem", margin: 0 }}>
+  style={{ paddingTop: "0.5rem", margin: 0 }}>
   <ul class="breadcrumbs breadcrumbs--lg" style={{ letterSpacing: "0.125rem" }}>
-    <a
-      class="breadcrumbs__link"
-      href="/"
-      style={{ padding: 0, margin: 0 }}>
-       Home /
+    <a class="breadcrumbs__link" href="/" style={{ padding: 0, margin: 0 }}>
+      Home /
     </a>
     <a
       class="breadcrumbs__link breadcrumbs__item--active"
@@ -30,10 +27,9 @@ import styles from "../src/css/learn/learn.module.css";
   </ul>
 </nav>
 
-<div
-  style={{ textAlign: "center", padding: "2rem", margin: "0 10rem",backgroundColor: "#091F2C"}}
-  class="item shadow--md">
-  <div style={{ display: "flex",alignItems:"flex-start" }}>
+
+<div className={clsx(styles.page,"item shadow--md")}>
+  <div style={{ display: "flex", alignItems: "flex-start" }}>
     <img alt="Dan Abramov Profile" src="img/generic-badge.svg" />
     <div style={{ padding: "2rem" }}>
       <div style={{ textAlign: "left" }}>
@@ -56,47 +52,45 @@ import styles from "../src/css/learn/learn.module.css";
         </div>
       </div>
       <div>
-        <div style={{padding:"2.5rem 0"}}>
-            <div className={styles.unitColumn}>
-                <a href="learn/export-and-import">Export and Import</a>
-                <span> 2 mins</span>
-            </div>
-            <div className={styles.unitColumn}>
-                <a href="learn/audit">Audit</a>
-                <span> 2 mins</span>
-            </div>
-            <div className={styles.unitColumn}>
-                <a href="learn/themes">Themes</a>
-                <span> 2 mins</span>
-            </div>
-             <div className={styles.unitColumn}>
-                <a href="learn/set-version">Set Version</a>
-                <span> 2 mins</span>
-            </div>
-             <div className={styles.unitColumn}>
-                <a href="learn/blend">Blend</a>
-                <span> 2 mins</span>
-            </div>
-             <div className={styles.unitColumn}>
-                <a href="learn/invert">Invert</a>
-                <span> 2 mins</span>
-            </div>
-             <div className={styles.unitColumn}>
-                <a href="learn/aggregation">Aggregation</a>
-                <span> 2 mins</span>
-            </div>
-            <div className={styles.unitColumn}>
-                <a href="learn/report">Report+</a>
-                <span> 2 mins</span>
-            </div>
-            <div className={styles.unitColumn}>
-                <a href="learn/template-row">Template row</a>
-                <span> 2 mins</span>
-            </div>
+        <div style={{ padding: "2.5rem 0" }}>
+          <div className={styles.unitColumn}>
+            <a href="learn/export-and-import">Export and Import</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/audit">Audit</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/themes">Themes</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/set-version">Set Version</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/blend">Blend</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/invert">Invert</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/aggregation">Aggregation</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/report">Report+</a>
+            <span> 2 mins</span>
+          </div>
+          <div className={styles.unitColumn}>
+            <a href="learn/template-row">Template row</a>
+            <span> 2 mins</span>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
