@@ -1,0 +1,51 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.heroBanner {
+  padding: 0 0 !important;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBannerImage {
+  width: 45rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.heroSupertitle {
+  padding: 2rem 0 0 0 ;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.225rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  .heroBannerImage{
+    display: none;
+  }
+  .buttons{
+    padding-bottom: 1rem ;
+  }
+}
+
+.startBtn{
+  color:white
+}
+
+.startBtn:hover{
+  color:black
+}

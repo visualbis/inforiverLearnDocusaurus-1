@@ -1,0 +1,67 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* :root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+} */
+
+:root {
+  --ifm-color-primary: #091f2c;
+  --ifm-color-primary-dark: #081c28;
+  --ifm-color-primary-darker: #081a25;
+  --ifm-color-primary-darkest: #06161f;
+  --ifm-color-primary-light: #0a2230;
+  --ifm-color-primary-lighter: #0a2433;
+  --ifm-color-primary-lightest: #0c2839;
+  --docusaurus-announcement-bar-height: 0 !important;
+  --doc-sidebar-width: 0 !important;
+  --doc-sidebar-hidden-width: 0 !important;
+  --ifm-container-width: 100%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #091f2c;
+  --ifm-color-primary-dark: #081c28;
+  --ifm-color-primary-darker: #081a25;
+  --ifm-color-primary-darkest: #06161f;
+  --ifm-color-primary-light: #0a2230;
+  --ifm-color-primary-lighter: #0a2433;
+  --ifm-color-primary-lightest: #0c2839;
+  --ifm-background-color:#2F2F2F !important;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255);
+  --ifm-font-color-base-inverse: rgba(255, 255, 255);
+  --ifm-navbar-link-hover-color:rgba(255,255,255,0.25);
+  --ifm-breadcrumb-color-active:rgba(255,255,255,0.25);
+  --ifm-menu-color-active:rgba(255,255,255,0.5);
+  --ifm-link-color:rgba(255,255,255,0.5);
+}
+
+.container.padding-top--md.padding-bottom--lg{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.docMainContainerEnhanced_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  max-width: 100%;
+  --ifm-spacing-horizontal: 0 !important;
+}
+
+@media (min-width: 997px){
+.col.docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
+    max-width: 100% !important;
+    margin:0 !important;
+}
+}

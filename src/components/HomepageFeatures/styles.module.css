@@ -1,0 +1,25 @@
+.title{
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem;
+  width: 100%;
+}
+
+.featureCard{ 
+  padding-bottom: 1.5rem;
+}
+
+.learnBtn{
+  font-size: larger;
+  letter-spacing: 0.1rem;
+}
+
+.cardImage{
+  border-radius: 0.375rem;
+}
