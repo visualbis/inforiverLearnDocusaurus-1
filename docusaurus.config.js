@@ -7,14 +7,14 @@ module.exports = {
   tagline:
     "Learn how to install, Model, Plan, Simulate, and Analyze with Inforiver",
   //TODO: Change this url
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://valq.com",
   baseUrl: "/",
   noIndex: true, // Defaults to `false`
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   //TODO: Change this favicon
   favicon: "img/favicon.ico",
-  organizationName: "Lumel", // Usually your GitHub org/user name.
+  organizationName: process.env.CIRCLE_PROJECT_USERNAME || "visualbis", // Usually your GitHub org/user name.
   projectName: "inforiver-docusaurus", // Usually your repo name.
   //TODO: Install Google analytics
   // plugins: ["@docusaurus/plugin-google-analytics"],
