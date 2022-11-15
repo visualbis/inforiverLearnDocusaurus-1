@@ -37,13 +37,13 @@ module.exports = {
       title: "Inforiver Guide",
       logo: {
         alt: "Inforiver Logo",
-        src: "img/inforiver-logo.svg",
+        src: "img/inforiver-design.png",
         href: "/",
       },
       items: [
         {
-          to: "/learn",
-          label: "Learning Path",
+          to: "/learn/modules/module-a",
+          label: "Learn",
           activeBasePath: "/learn",
           position: "left",
         },
@@ -64,8 +64,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Learning Path",
-              to: "/learn/export-and-import",
+              label: "Learn",
+              to: "/learn/modules/module-a",
             },
             {
               label: "Documentation",
@@ -77,16 +77,12 @@ module.exports = {
           title: "Links",
           items: [
             {
-              label: "Website",
-              href: "https://inforiver.com/",
+              label: "Inforiver Community",
+              href: "#url",
             },
             {
-              label: "Signup",
-              href: "https://inforiver.com/professional/trial/",
-            },
-            {
-              label: "Pricing",
-              href: "https://inforiver.com/pricing/",
+              label: "Status",
+              href: "#url",
             },
           ],
         },
@@ -94,21 +90,13 @@ module.exports = {
           title: "Social",
           items: [
             {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/company/info-river/",
-            },
-            {
-              label: "YouTube",
-              href: "https://www.youtube.com/channel/UCCsM_ewPSPDHgq30mssJmdg",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/inforiverbi",
+              label: "Blog",
+              href: "#url",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Lumel Technologies Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Lumel`,
     },
     prism: {
       theme: lightCodeTheme,

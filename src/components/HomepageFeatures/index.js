@@ -77,7 +77,7 @@ function Feature({ src, title, description }) {
         <p>{description}</p>
       </div>
       <div class="card__footer">
-        <Link className="button button--primary button--block" to="learn">
+        <Link className="button button--primary button--block" to={`learn/modules/module-${title.toLowerCase()}`}>
           <div className={styles.learnBtn}>Learn {title}</div>
         </Link>
       </div>

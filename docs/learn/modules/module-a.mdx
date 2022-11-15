@@ -1,36 +1,43 @@
 ---
-id: learn
+id: module-a
 title: Inforiver
 hide_title: true
 ---
+
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
-import styles from "../src/css/learn/learn.module.css";
+import styles from "../../../src/css/learn/learn.module.css";
+import useBaseUrl from "@docusaurus/useBaseUrl"; 
 
 <nav
   aria-label="breadcrumbs"
   itemscope=""
   itemtype="https://schema.org/BreadcrumbList"
-  style={{ paddingTop: "0.5rem", margin: 0 }}>
-  <ul class="breadcrumbs breadcrumbs--lg" style={{ letterSpacing: "0.125rem" }}>
-    <a class="breadcrumbs__link" href="/" style={{ padding: 0, margin: 0 }}>
-      Home /
+  className={styles.breadcrumbs}>
+  <ul class="breadcrumbs breadcrumbs--lg" style={{padding:"5px 10px"}}>
+    <a className={clsx(styles.breadcrumbsLink, "breabreadcrumbs__link")} href="/">
+      Home
     </a>
+    <span style={{ padding: 0 }}>/</span>
     <a
-      class="breadcrumbs__link breadcrumbs__item--active"
-      href="learn"
-      style={{ padding: 0 }}>
-      <span class="breadcrumbs__link" itemprop="name">
+      className={clsx(styles.breadcrumbsLink, "breabreadcrumbs__link","breadcrumbs__item--active")}
+      href="/learn/modules/module-a">
         Learn
-      </span>
+    </a>
+    <span style={{ padding: 0 }}>/</span>
+     <a className={clsx(styles.breadcrumbsLink, "breabreadcrumbs__link")} href="/learn/modules/module-a">
+      Modules
+    </a>
+    <span style={{ padding: 0 }}>/</span>
+     <a className={clsx(styles.breadcrumbsLink,styles.breadcrumbsLinkActive)} href="/learn/modules/module-a">
+      Module A
     </a>
   </ul>
 </nav>
 
-
-<div className={clsx(styles.page,"item shadow--md")}>
+<div className={clsx(styles.page, "item shadow--md")}>
   <div style={{ display: "flex", alignItems: "flex-start" }}>
-    <img alt="Dan Abramov Profile" src="img/generic-badge.svg" />
+    <img alt="Dan Abramov Profile" src={useBaseUrl("/img/generic-trophy.svg")} />
     <div style={{ padding: "2rem" }}>
       <div style={{ textAlign: "left" }}>
         <h1>Help Center</h1>
@@ -54,39 +61,39 @@ import styles from "../src/css/learn/learn.module.css";
       <div>
         <div style={{ padding: "2.5rem 0" }}>
           <div className={styles.unitColumn}>
-            <a href="learn/export-and-import">Export and Import</a>
+            <a href="module-a/export-and-import">Export and Import</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/audit">Audit</a>
+            <a href="module-a/audit">Audit</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/themes">Themes</a>
+            <a href="module-a/themes">Themes</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/set-version">Set Version</a>
+            <a href="module-a/set-version">Set Version</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/blend">Blend</a>
+            <a href="module-a/blend">Blend</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/invert">Invert</a>
+            <a href="module-a/invert">Invert</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/aggregation">Aggregation</a>
+            <a href="module-a/aggregation">Aggregation</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/report">Report+</a>
+            <a href="module-a/report">Report+</a>
             <span> 2 mins</span>
           </div>
           <div className={styles.unitColumn}>
-            <a href="learn/template-row">Template row</a>
+            <a href="module-a/template-row">Template row</a>
             <span> 2 mins</span>
           </div>
         </div>
