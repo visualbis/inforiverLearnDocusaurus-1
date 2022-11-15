@@ -10,7 +10,7 @@ module.exports = {
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   noIndex: true, // Defaults to `false`
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   //TODO: Change this favicon
   favicon: "img/favicon.ico",
