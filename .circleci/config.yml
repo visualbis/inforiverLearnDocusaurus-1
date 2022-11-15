@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run:
           name: node Install
-          command: node install
+          command: node --version
 
       - run:
           name: Deploying to GitHub Pages
