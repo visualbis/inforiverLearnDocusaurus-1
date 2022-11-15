@@ -17,8 +17,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Yarn Install
-          command: yarn install
+          name: node Install
+          command: node install
 
       - run:
           name: Deploying to GitHub Pages
