@@ -8,7 +8,7 @@ module.exports = {
     "Learn how to install, Model, Plan, Simulate, and Analyze with Inforiver",
   //TODO: Change this url
   url: "http://127.0.0.1:3001",
-  baseUrl: "/",
+  baseUrl: "/inforiverLearnDocusaurus/",
   noIndex: true, // Defaults to `false`
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
