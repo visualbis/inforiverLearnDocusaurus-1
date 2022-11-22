@@ -7,10 +7,10 @@ module.exports = {
   tagline:
     "Learn how to install, Model, Plan, Simulate, and Analyze with Inforiver",
   //TODO: Change this url
-  url: "http://127.0.0.1:3001",
+  url: "https://valq.com",
   baseUrl: "/inforiverLearnDocusaurus/",
   noIndex: true, // Defaults to `false`
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Lumel", // Usually your GitHub org/user name.
